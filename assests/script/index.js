@@ -85,10 +85,6 @@ function getLocation(position) {
         }).setLngLat([longitude, latitude])
         .addTo(map);
 
-    // const map = new mapboxgl.Map({attributionControl: false})
-    //     .addControl(new mapboxgl.AttributionControl({
-    //         customAttribution: 'Map design by me'
-    //     }));
        
 }
 
